@@ -72,41 +72,56 @@
         alphaTest= "0.5"
         env-map="#env"
         metalness="1.0"
-        roughness="0.0"           
+        roughness="0.0"                          
+        >        
         >                 
   </a-sphere>
 
   <a-sphere 
         height="0.5"
         radius="0.5"
-        position="-2 4 1" 
+        position="-2 4 1.2" 
         rotation="0 0 0"               
         src="eyeball.png"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
         metalness="1.0"
-        roughness="0.0"           
+        roughness="0.0" 
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 20000; 
+        loop:true"                           
         >                 
   </a-sphere>
 
   <a-sphere 
         height="0.5"
         radius="0.5"
-        position="-2 4 -1" 
+        position="-2 4 -1.2" 
         rotation="0 0 0"               
         src="eyeball.png"
         transparent="true"
         alphaTest= "0.5"
         env-map="#env"
         metalness="1.0"
-        roughness="0.0"           
+        roughness="0.0" 
+        animation="
+        property: rotation; 
+        from: 0 0 0; 
+        to: 0 360 0; 
+        easing: linear; 
+        dur: 15000; 
+        loop:true"                                
         >                 
   </a-sphere>
 
   <a-cylinder 
-  height="1.75"
-  radius="0.5"
+  height="2"
+  radius="0.75"
   position="0 0.5 0" 
   rotation="0 0 0"               
   src="suit.png"
