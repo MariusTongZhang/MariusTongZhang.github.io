@@ -49,9 +49,9 @@
           Edit size, position, texture and animation here -->
 
         <a-box 
-        width="2.1"
-        height="3.45"
-        depth="0.1"
+        width="3"
+        height="3"
+        depth="3"
         position="0 0 0" 
         rotation="0 45 0"               
         src="an.jpg"
@@ -65,10 +65,24 @@
         from: 0 0 0; 
         to: 0 360 0; 
         easing: linear; 
-        dur: 10000; 
+        dur: 15000; 
         loop:true"               
         >                 
         </a-box>
+
+        <a-cylinder 
+        height="3"
+        radius="1"
+        position="0 2 0" 
+        rotation="0 35 35"               
+        src="nb.png"
+        transparent="true"
+        alphaTest= "0.5"
+        env-map="#env"
+        metalness="1.0"
+        roughness="0.0"           
+        >                 
+  </a-cylinder>
 
         <!-- !!! END MARKER 1 !!! -->
       </a-marker>
