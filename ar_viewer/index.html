@@ -73,7 +73,7 @@
         <a-sphere 
         height="1.5"
         radius="1.5"
-        position="0 0.5 0" 
+        position="0 1.0 0" 
         rotation="0 -45 0"               
         src="#texture"
         transparent="true"
@@ -84,20 +84,19 @@
         >                 
   </a-sphere>
 
-        <a-cone 
-        height="3"
-        radius-top="0"
-        radius-bottom="2"           
-        position="0 0.5 0" 
-        rotation="0 0 0"               
-        src="suit.png"
-        transparent="true"
-        alphaTest= "0.5"
-        env-map="#env"
-        metalness="1.0"
-        roughness="0.0"           
-        >                 
-  </a-cone>
+  <a-cylinder 
+  height="3"
+  radius="1"
+  position="0 0.5 0" 
+  rotation="0 35 35"               
+  src="suit.png"
+  transparent="true"
+  alphaTest= "0.5"
+  env-map="#env"
+  metalness="1.0"
+  roughness="0.0"           
+  >                 
+</a-cylinder>
         <!-- !!! END MARKER 1 !!! -->
       </a-marker>
       
