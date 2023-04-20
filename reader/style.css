@@ -3,14 +3,35 @@
     src: url("Italiana-Regular.woff");
 }
 header{
-    position:absolute;
-    width: 1000px;
-    top: 20px;
-    left: 20px;
-    right: 40px;
+    position: absolute;
+    width: 167px;
+    height: 91px;
+    left: 111px;
+    top: 7px;
+    
     font-family: 'italiana';
-    font-size: 40px;
-    font-weight: 500;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 113px;
+    
+    color: #000000;
+}
+
+header1{
+    position: absolute;
+width: 365px;
+height: 1096px;
+left: 13px;
+top: 150px;
+
+font-family: 'italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
 }
 h2{
     position:absolute;
