@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB is Watching</title>
+    <link rel="stylesheet" href="page1.css">
+    <script>
+        window.onload = function () {
+          //add constraints object
+          var constraints = { audio: true, video: true };
+        
+          //call getUserMedia, then the magic
+          navigator.mediaDevices
+            .getUserMedia(constraints)
+            .then(function (mediaStream) {
+              var video = document.querySelector("video");
+              video.srcObject = mediaStream;
+              video.play();
+            })
+            .catch(function (err) {});
+        };
+        </script>
+</head>
+<body>
+    <div class="webcambackground">
+        <video class="webcam"></video>
+      </div>
+    <h1>Partially I feel, the surveillanceism has become, against its own good intentions, a fog zone, behind which we might discover other issues if only we would move beyond it. Surveillanceism has become the romanticism of the 21st century. My stake in this discussion is to push the it beyond surveillance towards the question of the production of data, interpreting it as a productive force instead. </h1>
+
+    <a href="index.html">
+    <img src="3.png" alt="">
+</a>
+
+</body>
+</html>

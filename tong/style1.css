@@ -1,0 +1,80 @@
+body{
+background-color: pink;
+}
+
+.frame{
+  display: flex;
+ flex-wrap: wrap;
+}
+
+div.blur img {
+  filter: blur(10px);
+  transition: 0.4s;
+}
+
+div.blur img:hover {
+  filter: blur(0px);
+  transition: 0.4s;
+}
+
+.square1{
+left: auto;
+right: auto;
+  background: none;
+    width: 20%;
+    height:10%;
+
+}
+
+img{
+    width: 100%;
+
+}
+
+.squareblack{
+  left: 0px;
+
+  background-color: black;
+  width: 100%;
+  height:10%;
+
+}
+
+
+div.hero {
+  position: fixed;
+  left: 0px;
+  top: 0px; 
+  width: 40vw;
+  
+  object-fit: cover;
+}
+
+div.hero2 {
+  position: fixed;
+  right: 0px;
+  bottom: 0px; 
+  width: 40vw;
+ 
+  object-fit: cover;
+}
+div.hero3{
+  position: fixed;
+  left: 30vw;
+  top: 35vh;
+  width: 40vw;
+  height: 30vh;
+  z-index: -1;
+}
+
+@font-face {
+  font-family:bold ;
+  src: url(Courier-BOLD-3.otf);
+}
+
+h1{
+  color: white;
+  font-family: bold;
+  line-height: 1.3;
+  padding: 30%;
+}

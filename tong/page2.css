@@ -1,0 +1,50 @@
+body{
+    background-color: pink;
+}
+
+
+.bgvideo{
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height: 100%;
+    opacity:60%;
+    z-index: -1;
+    mix-blend-mode:darken;
+    }
+    video{
+        width: 100%;
+    }
+
+
+h1{
+    font-family: bold;
+    font-size: 2.5vw;
+    line-height: 1.3;
+    padding: 5vh;
+}
+
+
+@font-face {
+    font-family: bold;
+    src: url(Courier-BOLD-3.otf);
+}
+
+
+img{
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height: 100vh;
+}
+
+.mymove{
+    position:fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height: 100vh;
+    animation: mymove 1s infinite linear;
+}
