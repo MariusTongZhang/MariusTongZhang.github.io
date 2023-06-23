@@ -2,57 +2,115 @@
     font-family: italiana;
     src: url("Italiana-Regular.woff");
 }
-header{
+body{
+    background-color: #f6b4b4;
+}
+
+img{
     position: absolute;
-width: 167px;
-height: 91px;
-left: 101.5px;
-top: 0px;
+width: 320px;
+top: auto;
+bottom: auto;
+}
 
-font-family: 'Italiana';
-font-style: normal;
-font-weight: 400;
-font-size: 96px;
-line-height: 113px;
+.dad{
+    width:100%;
+}
 
-color: #000000;
+.squareda{
+position: absolute;
+width: 100%;
+left: 0px;
+height: 100vw;
+top: 180px;
 }
 
 .square{
 position: absolute;
-width: 370px;
+width: 100%;
 left: 0px;
-height: 13px;
-top: 123px;
+height: 40px;
+top: 180px;
 
-background: #000000;
+background: #000000f1;
 }
-
-header1{
+.square8{
     position: absolute;
-width: 300px;
-left: 13px;
-top: 170px;
+    width: 100%;
+    left: 0px;
+    height: 22px;
+    top: 1024px;
+    
+    background: #000000f1;
+    }
 
-font-family: 'italiana';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 24px;
+.square2{
+    position: relative;
+    width: 327px;
+    left: 67px;
+    height: 259px;
+    top: 293px;
+    
+    background: #e3d6d6f1;
+    }
 
-color: #000000;
-}
-h2{
-    position: absolute;
-width: 365px;
-left: 13px;
-top: 200px;
+    div.square2 {
+        width: 327px;
+        left: 67px;
+        height: 259px;
+        top: 293px;
+        background-image:url(eye.png);
+      }
+      
+      div.square2:hover {
+        background-image:url(eye\ r.png);
+      }
 
-font-family: 'Italiana';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+    .square3{
+        position: absolute;
+        width: 327px;
+        left: 559px;
+        height: 259px;
+        top: 293px;
+        
+        background: #e3d6d6f1;
+        }
 
-color: #000000;
-}
+        .square4{
+            position: absolute;
+            width: 327px;
+            left: 1051px;
+            height: 259px;
+            top: 293px;
+            
+            background: #e3d6d6f1;
+            }       
+
+            .square5{
+                position: absolute;
+                width: 327px;
+                left: 59px;
+                height: 259px;
+                top: 690px;
+                
+                background: #e3d6d6f1;
+                }       
+                .square6{
+                    position: absolute;
+                    width: 327px;
+                    left: 550px;
+                    height: 259px;
+                    top: 690px;
+                    
+                    background: #e3d6d6f1;
+                    } 
+                    .square7{
+                        position: absolute;
+                        width: 327px;
+                        left: 1042px;
+                        height: 259px;
+                        top: 690px;
+                        
+                        background: #e3d6d6f1;
+                        }       
+              

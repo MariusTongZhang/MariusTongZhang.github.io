@@ -1,0 +1,48 @@
+body{
+background-color: pink;
+}
+
+.frame{
+  display: flex;
+ flex-wrap: wrap;
+}
+
+div.blur img {
+  filter: blur(15px);
+  transition: 0.4s;
+}
+
+div.blur img:hover {
+  filter: blur(0px);
+  transition: 0.4s;
+}
+
+.square1{
+left: auto;
+right: auto;
+  background: none;
+    width: 20%;
+    height:10%;
+
+}
+
+img{
+    width: 100%;
+
+}
+
+
+div.hero {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  outline: 1px solid red;
+  width: 30vw;
+  height: 50vh;
+  background-image:url("eye1.png");
+  object-fit: fill;
+}
+
+div.hero:hover {
+  background-image:url("eyes2.png");
+}
